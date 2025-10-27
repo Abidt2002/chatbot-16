@@ -11,7 +11,7 @@ document.addEventListener("DOMContentLoaded", () => {
   // ==============================
   // Load CSV File (Q&A)
   // ==============================
-  fetch("DevBay_Chatbot_QA.csv")
+  fetch("DevBay Chatbot QA.csv")
     .then(response => response.text())
     .then(data => {
       const lines = data.split("\n").slice(1);
